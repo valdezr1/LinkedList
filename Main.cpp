@@ -28,6 +28,7 @@ int main() {
 	singleLinkedList.deleteNode(8);
 	singleLinkedList.deleteNode(1);
 	singleLinkedList.deleteNode(12);
+	singleLinkedList.deleteNode(13);
 
 
 	singleLinkedList.display();

@@ -62,13 +62,13 @@ void SingleLinkedList :: deleteNode(int data){
 					temp->right = NULL;
 					delete temp;
 					temp = NULL;
-					break;
+					return;
 				}
 				follow = temp;
 				temp = temp->right;
 			}
 			//Data doesn't match
-			cout << "Data inputted wasn't in the list." << endl;
+			cout << data << " wasn't in the list." << endl;
 		}
 	}
 
